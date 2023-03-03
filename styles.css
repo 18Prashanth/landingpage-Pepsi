@@ -10,7 +10,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  width: 100vw;
+  width: auto;
 }
 .header {
   display: flex;
