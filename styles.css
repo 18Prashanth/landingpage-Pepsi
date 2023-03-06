@@ -10,11 +10,11 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  width: auto;
+  /* width: 100%; */
 }
 .header {
   display: flex;
-  height: 15%;
+  height: 14%;
   width: 100%;
   margin: auto;
   align-items: center;
@@ -22,17 +22,18 @@
 }
 .header img {
   display: flex;
-  width: 8rem;
-  height: 8rem;
+  width: 5rem;
+  height: 5rem;
   align-items: center;
   margin-left: 2%;
+  margin-top: 1%;
 }
 .nav {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  margin-left: 10%;
+  margin-left: 3%;
 }
 ul {
   display: flex;
@@ -45,15 +46,15 @@ li {
   margin-left: 6rem;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 20px;
   cursor: pointer;
   color: rgba(255, 255, 255, 0.6);
   font-family: "Poppins", sans-serif;
 }
 .login {
-  margin-left: 16rem;
-  padding: 1rem 4rem;
-  font-size: 25px;
+  margin-left: 5rem;
+  padding: 1rem 3rem;
+  font-size: 17px;
   font-weight: 600;
   text-transform: uppercase;
   border-radius: 4rem;
@@ -69,23 +70,25 @@ li {
 }
 .signup {
   padding: 1rem 2rem;
-
-  font-size: 25px;
+  font-size: 17px;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
   border-radius: 4rem;
-  margin-left: 5rem;
+  margin-left: 3rem;
   background: rgba(255, 255, 255, 0.5);
   border: none;
   backdrop-filter: blur(10rem);
   font-family: "Poppins", sans-serif;
   cursor: pointer;
 }
+.pepsi {
+  height: 80%;
+  margin-top: 5%;
+}
 .buy {
   padding: 1rem 2rem;
-
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.8);
   text-transform: uppercase;
@@ -93,7 +96,6 @@ li {
   margin-left: 2rem;
   background: rgba(255, 255, 255, 0.8);
   border: none;
-
   font-family: "Poppins", sans-serif;
   cursor: pointer;
   margin-top: 45px;
@@ -132,7 +134,7 @@ li {
 }
 .text p {
   margin-top: 25px;
-  width: 60%;
+  width: 80%;
   font-size: 25px;
   color: black;
 }
@@ -146,8 +148,8 @@ li {
   position: absolute;
 }
 .circle2 {
-  width: 17rem;
-  height: 17rem;
+  width: 12rem;
+  height: 12rem;
   border: 3px solid white;
   border-radius: 55%;
   margin-left: 65vh;
@@ -163,7 +165,7 @@ li {
 .circle2 h1 {
   width: 50%;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 27px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -174,11 +176,11 @@ li {
 .zero-content {
   position: absolute;
   margin-left: 50%;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 .zero-content h1 {
   display: flex;
-  font-size: 15rem;
+  font-size: 10rem;
   text-transform: uppercase;
   font-weight: 900;
   font-family: "Poppins", sans-serif;
@@ -187,7 +189,7 @@ li {
   font-weight: 1000;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
-  font-size: 5rem;
+  font-size: 57px;
   line-height: 0px;
   width: auto;
 }
@@ -195,21 +197,22 @@ li {
   font-weight: 1000;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
-  font-size: 8rem;
+  font-size: 6rem;
 }
 .zero-content .try {
   font-weight: 1100;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 25px;
   margin-left: 4rem;
   position: absolute;
   line-height: 40px;
 }
 .lo {
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
   margin-left: 75%;
+  margin-top: 5px;
 }
 
 .nitro {
@@ -221,10 +224,14 @@ li {
   display: flex;
 }
 .nitro img {
-  margin-left: 18%;
+  margin-left: 20%;
+  height: 80%;
+  margin-top: 5%;
 }
 .nitro .nitra-content img {
-  margin-top: 30%;
+  margin-top: 20%;
+  height: 50%;
+  margin-left: 30%;
 }
 .nitro .nitra-content h1 {
   text-transform: uppercase;
@@ -238,10 +245,10 @@ li {
 .nitro .nitra-content button {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   margin-left: 55%;
   margin-top: 1rem;
-  padding: 15px 40px;
+  padding: 10px 40px;
   border-radius: 25px;
   color: white;
   text-shadow: 3px 3px 5px white;
